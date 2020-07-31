@@ -1,20 +1,24 @@
-#EJEMPLO BÁSICO FLASK Y PYTHON
-##Requerimientos
--Python 3.8
--Flask
--Bootstrap
+# EJEMPLO BÁSICO FLASK Y PYTHON
+### Requerimientos
+ - Python 3.8
+ - Flask
+ - Bootstrap
 
 ---
-###Instalación framework Flask
+
+### Instalación framework Flask
 `pip install flask`
 
 ---
-###Iniciar
+
+### Iniciar
 `python index.py`
 > "Abrir navegador y escribir la dirección:" [localhost:5000](http://localhost:5000/)
 
 ---
-###Rutas
+
+### Rutas
+
 |Ruta del archivo|Descripción|
 |-|-|
 |`static/css/main.css`|Hoja de estilo usada en la aplicación|
@@ -27,7 +31,8 @@
 |`/acerca`|Visualiza el contenido de la ruta "Acerca de"|
 
 ---
-####Notas
+
+#### Notas
 Los cambios realizados en el código se mostrarán automáticamente
 
 	if __name__ == '__main__':
